@@ -6,9 +6,9 @@
   * {
     @apply border-gray-200;
   }
-  
+
   body {
-    @apply bg-background text-text-primary;
+    @apply bg-white text-gray-900;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
@@ -17,29 +17,29 @@
   .container {
     @apply max-w-3xl px-6 mx-auto;
   }
-  
+
   .card {
-    @apply bg-surface rounded-lg shadow-card p-6;
+    @apply bg-white rounded-lg shadow-lg p-6;
   }
-  
+
   .btn-primary {
-    @apply bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200 font-medium;
+    @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200 font-medium;
   }
-  
+
   .btn-secondary {
-    @apply bg-gray-100 text-text-primary px-4 py-2 rounded-md hover:bg-gray-200 transition-colors duration-200 font-medium;
+    @apply bg-gray-100 text-gray-900 px-4 py-2 rounded-md hover:bg-gray-200 transition-colors duration-200 font-medium;
   }
-  
+
   .btn-outline {
-    @apply border border-gray-300 text-text-primary px-4 py-2 rounded-md hover:bg-gray-50 transition-colors duration-200 font-medium;
+    @apply border border-gray-300 text-gray-900 px-4 py-2 rounded-md hover:bg-gray-50 transition-colors duration-200 font-medium;
   }
-  
+
   .input {
-    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
   }
-  
+
   .select {
-    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-white;
+    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white;
   }
 }
 
