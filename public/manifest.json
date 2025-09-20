@@ -1,0 +1,14 @@
+{
+  "name": "MindMeld Connect",
+  "description": "MindMeld Connect is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://10be57c5-9658-472a-8a80-e59a2e2c870e.deployments.vistara.dev",
+  "properties": {
+    "app": {
+      "name": "MindMeld Connect",
+      "description": "MindMeld Connect is a Base Mini App built with Zara.",
+      "url": "https://10be57c5-9658-472a-8a80-e59a2e2c870e.deployments.vistara.dev",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

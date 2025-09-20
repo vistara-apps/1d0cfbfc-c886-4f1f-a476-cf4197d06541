@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "MindMeld Connect",
+    "subtitle": "Built with Zara",
+    "description": "MindMeld Connect is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://1d0cfbfcc8864f1fa476cf4197d06541-vrr7.vercel.app",
+    "splashImageUrl": "https://1d0cfbfcc8864f1fa476cf4197d06541-vrr7.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://1d0cfbfcc8864f1fa476cf4197d06541-vrr7.vercel.app/image.png",
+    "tagline": "MindMeld Connect",
+    "screenshotUrls": [
+      "https://1d0cfbfcc8864f1fa476cf4197d06541-vrr7.vercel.app/screenshot.png",
+      "https://1d0cfbfcc8864f1fa476cf4197d06541-vrr7.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://1d0cfbfcc8864f1fa476cf4197d06541-vrr7.vercel.app/api/webhook"
+  }
+}
