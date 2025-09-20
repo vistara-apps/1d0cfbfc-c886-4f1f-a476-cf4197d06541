@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <AppShell>
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-gray-50">
         {currentStep === 'onboarding' && (
           <OnboardingFlow onComplete={handleOnboardingComplete} />
         )}

@@ -1,6 +1,5 @@
 'use client';
 
-import { useMiniKit } from '@coinbase/minikit';
 import { Header } from './Header';
 
 interface AppShellProps {
@@ -8,11 +7,9 @@ interface AppShellProps {
 }
 
 export function AppShell({ children }: AppShellProps) {
-  const { context } = useMiniKit();
-
   return (
-    <div className="min-h-screen bg-background">
-      <Header user={context?.user} />
+    <div className="min-h-screen bg-gray-50">
+      <Header />
       <main className="container py-6">
         {children}
       </main>
